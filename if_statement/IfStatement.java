@@ -10,5 +10,9 @@ public class IfStatement {
         } else {
             System.out.println("Maaf anda tidak lulus");
         }
+
+        // ternary operator
+        String hasil = nilai >= 80 ? "Selamat anda lulus" : "Maaf anda tidak lulus";
+        System.out.println(hasil);
     }
 }
